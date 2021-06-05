@@ -1,7 +1,7 @@
 -- Exercício 1
 -- Printar uma string: Curso com SuricatoX
 
-print("SuricatoX")
+print("Curso com SuricatoX")
 
 -- Exercício 2
 -- Printar uma variável com o nome de ezequiel que seja igual a string felicidade
@@ -138,10 +138,8 @@ y = 10.5
 
 if x == y then
     print("sucesso1")
+elseif x + 0.5 == y then
+    print("sucesso2")
 else
-    if x + 0.5 == y then
-        print("sucesso2")
-    else
-        print("em nenhum dos casos acima são iguais")
-    end
+    print("em nenhum dos casos acima são iguais")
 end
