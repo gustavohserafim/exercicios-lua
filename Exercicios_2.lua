@@ -121,3 +121,47 @@ else
     print("negado")
 end
 
+-- Exercício 7 
+-- Iguale uma variável qualquer a string Jequiti
+-- Crie uma função que pega essa variável e seta ela como Natura;
+-- Execute a função;
+-- Printe a variável;
+
+marca = "Jequiti"
+
+function trocar(marca)
+    return "Natura"
+end
+
+marca = trocar(marca)
+
+print(marca)
+
+
+-- Exercício 8
+-- Iguale uma variável a true;
+-- Faça uma função que pega essa variável e seta ela como o contrário dela;
+-- Execute a função;
+-- Printe a variável;
+
+var = true
+
+function contrario(var)
+    return not var
+end
+
+var = contrario(var)
+print(var)
+
+-- Exercício 9
+-- Crie uma função que recebe um valor variável;
+-- Dentro da função coloque um print deste valor variável;
+-- Execute a função retornando o valor variável;
+
+churros = "doce de leite"
+
+function funcao(var)
+    print(var)
+end
+
+funcao(churros)
